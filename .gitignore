@@ -99,3 +99,20 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+.directory
+
+#ide
+.project
+.pydevproject
+.settings/
+
+# Media Files
+media/*
+!media/.empty
+static/*
+!static/.empty
+
+# Others
+image_compare_project/settings_local.py
+image_compare_project/settings_production.py
